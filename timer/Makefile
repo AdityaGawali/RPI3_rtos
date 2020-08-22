@@ -9,7 +9,7 @@ SRC_DIR = src
 all : kernel8.img
 
 clean :
-	rm -rf $(BUILD_DIR)*.img
+	rm -rf $(BUILD_DIR) *.img
 
 flash :
 	sudo mount -t drvfs F: /mnt/f
